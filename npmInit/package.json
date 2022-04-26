@@ -1,0 +1,22 @@
+{
+  "name": "js_tools_for_eom",
+  "version": "1.0.0",
+  "description": "노드의 패키지와 버전관리를위한 npm 설명",
+  "main": "index.js",
+  "scripts": {
+    "test": "this is test command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eomsteve/eomForJS_Tools.git"
+  },
+  "keywords": [
+    "tutorial_webpack"
+  ],
+  "author": "seom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eomsteve/eomForJS_Tools/issues"
+  },
+  "homepage": "https://github.com/eomsteve/eomForJS_Tools#readme"
+}
