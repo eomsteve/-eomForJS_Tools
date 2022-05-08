@@ -1,0 +1,9 @@
+body {
+  height: 100vh;
+}
+
+div{
+  border: 5px solid black;
+  width: 100px;
+  height: 100px;
+}
