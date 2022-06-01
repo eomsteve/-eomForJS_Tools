@@ -1,0 +1,23 @@
+{
+  "name": "stringreplaceloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:production": "webpack --config webpack.config.js --env production --mode production",
+    "build:validation": "webpack --config webpack.config.js --mode development",
+    "build:prod_seperate": "webpack --config webpack.prod.js --env production",
+    "build:dev_seperate": "webpack --config webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "string-replace-loader": "^3.1.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0",
+    "webpack-string-replacer": "^0.0.20"
+  }
+}
