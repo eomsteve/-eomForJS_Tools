@@ -1,0 +1,27 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "바벨JS(이하 바벨)은 자바스크립트의 현재 문법을 옛 문법으로 변환시켜주는 역할을 한다. 이는 과거 모던 Nodejs의 ECMAScript 문법들의 미지원 때문에 필요성이 들어왔다. 바벨은 새로운 며세를 즉시, 바로 사용할수 있도록 해주는 장점이 있고 웹 개발의 가장 큰 골칫덩어리였던 `크로스 브라우저 이슈, 레거시 브라우저 시유`를 단번에 해결했다. 오늘날 프로젝트에서 바벨을 사용하지 않는 경우는 거의 없다고 봐도 무방하다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "trans": "babel src/ -w -d dist/",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/runtime-corejs3": "^7.18.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "core-js": "^3.22.8",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

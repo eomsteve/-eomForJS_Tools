@@ -1,0 +1,18 @@
+//babel.config.json
+{
+  "presets" : [
+  [
+    "@babel/preset-env",
+    {
+      //미니멈 버전
+      "targets":{
+        "chrome": "72",
+        "ie":"11"
+      },
+      "modules":"cjs",
+      "useBuiltIns": "usage",
+      "corejs": "3.6.4"
+    }
+  ]
+]
+}
