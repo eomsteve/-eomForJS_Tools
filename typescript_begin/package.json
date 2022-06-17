@@ -1,0 +1,20 @@
+{
+  "name": "typescript_begin",
+  "version": "1.0.0",
+  "description": "TypeScript가 Javascript의 변형, 혹은 기호 라는것을 들어봤을겁니다. TS와 JS의 관계는 프로그래밍 언에서 굉장이 독특한 관계입니다. 그래서 TS와 JS관계를 이해 하는것은 TS학습에도 도움이 됩니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-build": "tsc --build",
+    "build" : "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
